@@ -1,0 +1,40 @@
+site_name: Sesa Docs
+site_url: https://www.saude.pr.gov.br/
+copyright: Nii SESA
+site_description: Documentação das API da SESA PARANA
+site_author: NII - Nucleo de Informatica e Informações
+#repo_url: https://github.com/example/repository/
+
+theme:
+  name: mkdocs
+  favicon: assets/favicon.ico
+  logo: https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2025-11/logo_fundo_transparente.png
+  locale: pt_BR
+  highlightjs: true
+    - yaml
+    - python
+  color_mode: light
+  user_color_mode_toggle: true
+
+
+nav:
+  - Home: index.md
+  - Getting Started: nav/getting-started.md
+  - Components:
+      - nav/components/sidebar.md
+      - nav/components/top-menu.md
+      - nav/components/preview.md
+      - nav/components/footer.md
+      - nav/components/site-name.md
+      - nav/components/standard-title.md
+  - Styles:
+      - nav/styles/highlightjs.md
+      - nav/styles/favicon.md
+      - nav/styles/colors.md
+      - nav/styles/logo.md
+  - Development:
+      - nav/development/development-guide.md
+      - nav/development/release-notes.md
+
+plugins:
+  - search
