@@ -6,7 +6,7 @@ site_author: NII - Nucleo de Informatica e Informações
 #repo_url: https://github.com/example/repository/
 
 theme:
-  name: mkdocs
+  name: simple-blog
   favicon: assets/favicon.ico
   logo: https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2025-11/logo_fundo_transparente.png
   locale: pt_BR
